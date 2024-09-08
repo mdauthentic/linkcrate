@@ -1,0 +1,14 @@
+[project]
+author = "Muideen Lawal"
+name = "linkcrate"
+version = "0.1.0"
+description = "Add and manage bookmarks"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.13.2",
+    "beautifulsoup4>=4.12.3",
+    "fastapi[standard]>=0.114.0",
+    "pytest>=8.3.2",
+    "sqlalchemy>=2.0.34",
+]
